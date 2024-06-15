@@ -1,0 +1,154 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  body {
+    font-family: "arial";
+    padding: 40px;
+   
+  }
+  
+  .navbar {
+    position: block;
+    height: 30px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+   
+  }
+  
+  .navbar a {
+    color: black;
+  }
+  
+  .navbar .titre {
+    font-size: 2em;
+    font-weight: bold;
+   
+  }
+  
+  .navbar .navlinks ul {
+    display: flex;
+    gap: 3rem;
+  
+  
+  }
+  
+  .navbar .navlinks ul li {
+   
+   padding-right: 10px ;
+  }
+  
+  .navbar .menu-hamburger { 
+    display:none ;
+    height: 0;
+    position: absolute;
+    right: 30px;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    
+  }
+
+  .container1 {
+    margin-top: 20px;
+   
+  }
+
+  .container1 img {
+    object-fit: cover;
+    max-width: 100%;
+    margin: auto;
+    padding-top: 20px;
+  }
+
+  .exhibitioninfo {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  
+  }
+
+  .explore {
+    margin-top: 10px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+
+    /*outline: 1px solid red;*/
+
+  }
+
+ 
+  .explorebouton .bouton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 18px;
+    width: 250px;
+    height: 25px;
+    padding: 10px ;
+    border-color: black;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .explorebouton .bouton:hover {
+    background-color:black;
+    transition: background-color 0.3s;
+    color:white;
+
+  }  
+  
+  .container2 {
+ 
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap:20px;
+    /*outline: solid 2px yellow;*/
+
+  }
+  
+  .card {
+    
+    /*background: blue;*/
+    align-items: center;
+    gap: 30px;
+    padding: 0;
+    box-sizing: none;
+  
+  }
+
+
+  .legende {
+    
+    text-align: center;
+    padding: 20px;
+    gap:2px;
+   
+  }
+
+  .card img {
+    width: 250px;
+    
+    /*outline: solid 5px brown$*/
+
+  }
+ 
